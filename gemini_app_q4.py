@@ -102,5 +102,15 @@ if question:
     except Exception as e:
         st.error(f"Error contacting Gemini API: {e}")
 
+st.markdown("""
+---
+### 👨‍💻 Developed by:
+**Tanouz**, **Chandana**, **Pratyush**, **Sahithi**, **Susmitha**
+
+### 🤖 LLM Used:
+This application uses **Google Gemini (Closed-Source LLM)** accessed through the official **Gemini API**.
+---
+""")
+
 
 
