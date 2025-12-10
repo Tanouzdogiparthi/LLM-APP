@@ -12,6 +12,9 @@ if not API_KEY:
     st.error("API key missing. Set GEMINI_API_KEY in secrets or env")
 
 
+client = genai.Client(api_key=API_KEY)
+
+
 st.set_page_config(page_title="Web based Closed Source LLM-APP-GEMINI", layout="centered")
 
 
