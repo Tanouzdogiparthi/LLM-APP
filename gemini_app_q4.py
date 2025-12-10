@@ -108,9 +108,10 @@ st.markdown("""
 **Tanouz**, **Chandana**, **Pratyush**, **Sahithi**, **Susmitha**
 
 ### 🤖 LLM Used:
-This application uses **Google Gemini (Closed-Source LLM)** accessed through the official **Gemini API**.
+This application uses Google Gemini (Closed-Source LLM) accessed through the official Gemini API.
 ---
 """)
+
 
 
 
