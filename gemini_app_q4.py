@@ -6,7 +6,10 @@ import io
 from google import genai
 
 # Paste your API key here
-client = genai.Client(api_key="AIzaSyD7nWXsnfxAHvtPcxMPAZGS-tqh5lyOK9U")
+API_KEY = st.secrets.get("GEMINI_API_KEY")
+
+if not API_KEY:
+    st.error("API key missing. Set GEMINI_API_KEY in secrets or env")
 
 
 st.set_page_config(page_title="Web based Closed Source LLM-APP-GEMINI", layout="centered")
