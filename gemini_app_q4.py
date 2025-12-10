@@ -5,7 +5,7 @@ import io
 from google import genai
 
 # Paste your API key here
-client = genai.Client(api_key="AIzaSyB6Ty0WyzUZ1SmY0oJ7APKI8SCMhTRK6Y8")
+client = genai.Client(api_key="AIzaSyD7nWXsnfxAHvtPcxMPAZGS-tqh5lyOK9U")
 
 
 st.set_page_config(page_title="Web based Closed Source LLM-APP-GEMINI", layout="centered")
@@ -94,5 +94,6 @@ if question:
         st.write(answer)
     except Exception as e:
         st.error(f"Error contacting Gemini API: {e}")
+
 
 
