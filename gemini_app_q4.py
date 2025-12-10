@@ -2,6 +2,7 @@ import streamlit as st
 import pdfplumber
 import docx
 import io
+
 from google import genai
 
 # Paste your API key here
